@@ -10,7 +10,7 @@ const CounterApp = ({ value }) => {
     setCounter((c) => c + 1);
   };
   const handleReset = () => {
-    setCounter(0);
+    setCounter(value);
   };
   const handleSubstrac = () => {
     setCounter(counter - 1);
