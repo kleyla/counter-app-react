@@ -29,3 +29,45 @@ import PropTypes from "prop-types";
 
 6. Asegúrense de no tener errores ni warnings
    (Cualquier warning no usado, comentar el código)
+
+## TEST
+
+### Introduccion a las pruebas unitarias y de integracion
+
+Caracteristicas:
+
+- Faciles de escribir
+- Faciles de leer
+- Confiables
+- Rapidas
+- Principalmente unitarias
+
+#### Arrange (Arreglar)
+
+Preparamos el estado inicial, es el sujeto a probar
+
+- Inicializamos varibles
+- Importaciones necesarias
+
+#### Act (Actuar)
+
+Aplicamos acciones y estimulos al sujeto de prueba
+
+- Llamamos metodos
+- Simulamos clikcs
+- Realizar las acciones sobre el paso anterior
+
+#### Assert (Afirmar)
+
+Obserbar el comportamiento resultante
+
+- Son los resultados esperados
+- Ej. Que algo cambie, algo incremente o bien que nada suceda
+
+### Mitos
+
+- Hacen que la aplicacion no tenga errores
+- Las pruebas no puedan fallar
+- Hacen mas lenta mi aplicacion
+- Es una perdida de tiempo
+- Hay que probar todo
