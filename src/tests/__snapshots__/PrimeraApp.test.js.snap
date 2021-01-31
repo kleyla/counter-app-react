@@ -5,8 +5,8 @@ exports[`Prueba en PrimeaApp Debe de mostrar PrimeraApp correctamente 1`] = `
   <h1>
     Hola, soy Karen
   </h1>
-  <h3>
+  <p>
     Soy un subtitulo
-  </h3>
+  </p>
 </div>
 `;
