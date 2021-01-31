@@ -71,3 +71,9 @@ Obserbar el comportamiento resultante
 - Hacen mas lenta mi aplicacion
 - Es una perdida de tiempo
 - Hay que probar todo
+
+Correr test:
+
+```
+npm run test
+```
