@@ -4,9 +4,9 @@ import CounterApp from "./CounterApp";
 import "./index.css";
 import PrimeraApp from "./PrimeraApp";
 
-ReactDOM.render(
-  <PrimeraApp saludo="Hola, soy Karen" />,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <PrimeraApp saludo="Hola, soy Karen" />,
+//   document.getElementById("root")
+// );
 
-// ReactDOM.render(<CounterApp value={10} />, document.getElementById("root"));
+ReactDOM.render(<CounterApp  />, document.getElementById("root"));
